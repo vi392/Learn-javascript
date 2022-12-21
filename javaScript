@@ -1,4 +1,4 @@
-// use of Arrays..
+// Use of Arrays..
 let book= ["ram", "vishal", "raju","raja"];
 console.log(book);
 console.log(book.length);
@@ -10,13 +10,13 @@ console.log(book);
 book.shift();
 console.log(book);
 
-// use of for each loop in javascript.
+// Use of for each loop in javascript.
   book.forEach(myfu);
    function myfu(value){
     console.log(value);
    }
    
-// use of Object in javascript.
+// Use of Object in javascript.
   var person={
     name:"vishal",  
     LastName :"kumar",
@@ -24,7 +24,7 @@ console.log(book);
 console.log(person.name)
 console.log(person.LastName)
 
-// use of Switch case in javaScript..
+// Use of Switch case in javaScript..
 switch(days){
     case "monday":
     alert("Hello bhai!");
