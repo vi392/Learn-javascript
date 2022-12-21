@@ -1,0 +1,49 @@
+// use of Arrays..
+let book= ["ram", "vishal", "raju","raja"];
+console.log(book);
+console.log(book.length);
+console.log(book[2]);
+book.push("babu");
+console.log(book);
+book.unshift("nishu");
+console.log(book);
+book.shift();
+console.log(book);
+
+// use of for each loop in javascript.
+  book.forEach(myfu);
+   function myfu(value){
+    console.log(value);
+   }
+   
+// use of Object in javascript.
+  var person={
+    name:"vishal",  
+    LastName :"kumar",
+}
+console.log(person.name)
+console.log(person.LastName)
+
+// use of Switch case in javaScript..
+switch(days){
+    case "monday":
+    alert("Hello bhai!");
+     break;
+
+     case "no":
+     alert("shyam");
+     break;
+
+     case "yes":
+     alert("ramu");
+     break;
+
+     case "tuesday":
+     alert("i am vishal babu");
+     break;
+
+     default:
+     alert("All are Same Char");
+     break;
+  }
+  
