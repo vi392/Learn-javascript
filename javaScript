@@ -47,3 +47,14 @@ switch(days){
      break;
   }
   
+  // print date time day year current and mannul in javascript.. 
+   let x= new Date();  // print current date 
+   console.log(x);
+   let y= new Date(2018, 10, 27, 8, 35, 45); // print mannual date 
+   let z= new Date("december , 13, 2019, 11:12:56");
+   console.log(y);
+   console.log(z);
+   console.log(y.getFullYear());
+   y.setFullYear(2020);
+   console.log(y);
+  
