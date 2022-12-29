@@ -57,4 +57,38 @@ switch(days){
    console.log(y.getFullYear());
    y.setFullYear(2020);
    console.log(y);
+   
+   // Use of nasted object in javascript..
+   // var user={   // first object
+   //     id:101,
+   //     email: "vishu@gmail.com",
+   //     personalInfo:{    // 2nd object..
+   //        name: "vishal",
+   //        address:{  // 3rd object..
+   //          vill:'parariyawan',
+   //          city: 'Patna',
+   //          state:'Bihar',
+   //        }
+   //     }
+   // };
+   // console.log(user);
+   // console.log(user.personalInfo);
+   // console.log(user.personalInfo.address);
+   
+   // Use of constructor function in js..
+ function Student(first, last, age,cls){
+    this.firstName= first;
+    this.lastName = last;
+    this.age=age;
+    this.class=cls;
+ }
+
+// after create constructor add another keyword with the help of prototype like this..
+ Student.prototype.nationality="Indian";
+
+ var student1= new Student("vishal", "kumar",20,5);
+//  add another keyword in object in js...
+student1.nationality= "indian";
+ console.log(student1);
+   
   
